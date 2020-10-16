@@ -1,0 +1,32 @@
+export const PUBLIC_ROUTE = {
+	LANDING: '/',
+	SIGN_IN: '/signin',
+	FORGET_PASSWORD: '/forgotpassword',
+	RESET_PASSWORD: '/resetpassword/:token/:email',
+	USER_ACTIVATE: '/activate/:token/:email',
+	E_SIGN: '/e-sign-form/:slug',
+	E_SIGN_VIEW: '/e-sign-form-view/:slug',
+};
+
+export const PRIVATE_ROUTE = {
+	DASHBOARD: '/',
+	HOME: '',
+	CUSTOMERS: 'customers',
+	SUPPLIERS: 'suppliers',
+	PROJECTS: 'projects',
+	PROJECTLIST: 'project-list',
+	PROJECT_ID_PARAM: ':projectId',
+	CALENDER: 'calender',
+	LOCATIONS: 'locations',
+	E_SIGN_FORM: 'e-sign-form',
+	SETTINGS: 'settings',
+	MESSAGES: 'messages',
+	USERS: 'users',
+	NEW: 'new',
+	ID_PARAM: ':id',
+	EDIT: 'edit',
+	ORDER: 'order',
+	MAINTENANCE: 'maintenance',
+	STEPS: 'steps',
+	STEP_ID_PARAM: ':stepId',
+};
