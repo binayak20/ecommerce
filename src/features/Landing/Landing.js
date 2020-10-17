@@ -4,7 +4,7 @@ import { SearchOutlined } from '@ant-design/icons';
 
 const Landing = () => {
 	return (
-		<div>
+		<div style={{ padding: '40px 30px 0px' }}>
 			<Row justify='space-around'>
 				<Col span={12}>
 					<PageHeader
@@ -27,30 +27,30 @@ const Landing = () => {
 			</Row>
 			<Row justify='space-around'>
 				<Col span={4}>
-					<img src='/img/shop 1.png' />
+					<img src='/img/shop 1.png' alt='alt' />
 				</Col>
 				<Col span={4}>
-					<img src='/img/shop 2.png' />
+					<img src='/img/shop 2.png' alt='alt' />
 				</Col>
 				<Col span={4}>
-					<img src='/img/shop 3.png' />
+					<img src='/img/shop 3.png' alt='alt' />
 				</Col>
 				<Col span={4}>
-					<img src='/img/shop 4.png' />
+					<img src='/img/shop 4.png' alt='alt' />
 				</Col>
 			</Row>
 			<Row justify='space-around'>
 				<Col span={4}>
-					<img src='/img/shop 5.png' />
+					<img src='/img/shop 5.png' alt='alt' />
 				</Col>
 				<Col span={4}>
-					<img src='/img/shop 6.png' />
+					<img src='/img/shop 6.png' alt='alt' />
 				</Col>
 				<Col span={4}>
-					<img src='/img/shop 7.png' />
+					<img src='/img/shop 7.png' alt='alt' />
 				</Col>
 				<Col span={4}>
-					<img src='/img/shop 8.png' />
+					<img src='/img/shop 8.png' alt='alt' />
 				</Col>
 			</Row>
 		</div>

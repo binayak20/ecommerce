@@ -7,7 +7,7 @@ const TopbarWrapper = styled.div`
 		position: fixed;
 		width: 100%;
 		height: 5rem;
-		padding: 0 30px 0 30px;
+		padding: 0 50px 0 50px;
 		box-shadow: 0 8px 6px -8px #d2d2ca;
 
 		&.collapsed {

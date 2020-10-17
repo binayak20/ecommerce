@@ -8,22 +8,38 @@ const FooterComponent = () => {
 			<Row justify='space-around'>
 				<Col span={8}>
 					<div>
-						<img src='/img/logo.png' />
+						<img src='/img/logo.png' alt='tyest' />
 					</div>
 				</Col>
 				<Col span={8}>
 					<div style={{ textAlign: 'center' }}>
 						<h2 className='footer-h2'>DOWNLOAD THE APP</h2>
-						<img className='footer-image' src='/img/playStore.jpg' />
-						<img className='footer-image' src='/img/appStore.jpg' />
+						<img
+							className='footer-image'
+							src='/img/playStore.jpg'
+							alt='tyest'
+						/>
+						<img className='footer-image' src='/img/appStore.jpg' alt='tyest' />
 					</div>
 				</Col>
 				<Col span={8}>
 					<div style={{ textAlign: 'center', float: 'right' }}>
 						<h2 className='footer-h2'>CONTACT WITH</h2>
-						<img className='footer-social' src='/img/facebook.png' />
-						<img className='footer-social' src='/img/instagram.png' />
-						<img className='footer-social' src='/img/whatsapp.png' />
+						<img
+							className='footer-social'
+							alt='tyest'
+							src='/img/facebook.png'
+						/>
+						<img
+							className='footer-social'
+							src='/img/instagram.png'
+							alt='tyest'
+						/>
+						<img
+							className='footer-social'
+							src='/img/whatsapp.png'
+							alt='tyest'
+						/>
 					</div>
 				</Col>
 			</Row>

@@ -19,7 +19,11 @@ const HeaderComponent = () => {
 					</Col>
 					<Col span={8}>
 						<div style={{ textAlign: 'center' }}>
-							<img style={{ width: 150 }} src='/img/logo-green.png' />
+							<img
+								style={{ width: 150 }}
+								src='/img/logo-green.png'
+								alt='test'
+							/>
 						</div>
 					</Col>
 					<Col span={8}>
