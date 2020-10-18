@@ -25,3 +25,23 @@ code {
 	font-family: 'Poppins';
 	font-size: 18px;
 }
+.cart-header {
+	margin: auto;
+	width: 50%;
+	text-align: center;
+	font-size: 30px;
+}
+.cart {
+	background: #f7f7f7;
+	padding: 70;
+}
+.center {
+	text-align: center;
+}
+.summary-item {
+	color: #707070;
+}
+.summary-amount {
+	color: #000000;
+	font-weight: bold;
+}

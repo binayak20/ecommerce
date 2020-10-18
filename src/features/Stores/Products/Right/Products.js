@@ -1,4 +1,3 @@
-import { Row } from 'antd';
 import React from 'react';
 import Header from './Header';
 import ProductList from './List';

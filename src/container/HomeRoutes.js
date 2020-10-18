@@ -1,12 +1,7 @@
 import React, { lazy, Suspense } from 'react';
 import { Spin } from 'antd';
-//import { useSelector } from 'react-redux';
 import { Route, Switch } from 'react-router-dom';
 import { PRIVATE_ROUTE } from '../router/routePaths';
-//import Loader from 'components/utility/loader';
-//import { PRIVATE_ROUTE } from 'router';
-
-//const NotFound = lazy(() => import('pages/NotFoundPage'));
 
 const routes = [
 	{
@@ -17,6 +12,16 @@ const routes = [
 	{
 		path: PRIVATE_ROUTE.STORE,
 		component: lazy(() => import('../pages/Stores')),
+		exact: true,
+	},
+	{
+		path: PRIVATE_ROUTE.ITEM,
+		component: lazy(() => import('../pages/Item')),
+		exact: true,
+	},
+	{
+		path: PRIVATE_ROUTE.CART,
+		component: lazy(() => import('../pages/Cart')),
 		exact: true,
 	},
 ];
