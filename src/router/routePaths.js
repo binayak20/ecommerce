@@ -12,5 +12,6 @@ export const PRIVATE_ROUTE = {
 	STORE: 'store',
 	ITEM: 'item',
 	CART: 'cart',
+	ACCOUNT: 'my-account',
 	STORE_ID_PARAM: ':storeId',
 };
