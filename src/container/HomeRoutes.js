@@ -29,6 +29,11 @@ const routes = [
 		component: lazy(() => import('../pages/MyAccount')),
 		exact: true,
 	},
+	{
+		path: PRIVATE_ROUTE.MYORDER,
+		component: lazy(() => import('../pages/MyOrder')),
+		exact: true,
+	},
 ];
 
 export default function AppRouter() {
