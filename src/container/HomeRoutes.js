@@ -34,6 +34,11 @@ const routes = [
 		component: lazy(() => import('../pages/MyOrder')),
 		exact: true,
 	},
+	{
+		path: PRIVATE_ROUTE.MYWALLET,
+		component: lazy(() => import('../pages/MyWallet')),
+		exact: true,
+	},
 ];
 
 export default function AppRouter() {
