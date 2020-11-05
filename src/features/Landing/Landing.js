@@ -1,6 +1,7 @@
 import React from 'react';
 import { Row, Col, PageHeader, Input } from 'antd';
 import { SearchOutlined } from '@ant-design/icons';
+import { Link } from 'react-router-dom';
 
 const Landing = () => {
 	return (
@@ -27,30 +28,46 @@ const Landing = () => {
 			</Row>
 			<Row justify='space-around'>
 				<Col span={4}>
-					<img src='/img/shop 1.png' alt='alt' />
+					<Link to='/store'>
+						<img src='/img/shop 1.png' alt='alt' />
+					</Link>
 				</Col>
 				<Col span={4}>
-					<img src='/img/shop 2.png' alt='alt' />
+					<Link to='/store'>
+						<img src='/img/shop 2.png' alt='alt' />
+					</Link>
 				</Col>
 				<Col span={4}>
-					<img src='/img/shop 3.png' alt='alt' />
+					<Link to='/store'>
+						<img src='/img/shop 3.png' alt='alt' />
+					</Link>
 				</Col>
 				<Col span={4}>
-					<img src='/img/shop 4.png' alt='alt' />
+					<Link to='/store'>
+						<img src='/img/shop 4.png' alt='alt' />
+					</Link>
 				</Col>
 			</Row>
 			<Row justify='space-around'>
 				<Col span={4}>
-					<img src='/img/shop 5.png' alt='alt' />
+					<Link to='/store'>
+						<img src='/img/shop 5.png' alt='alt' />
+					</Link>
 				</Col>
 				<Col span={4}>
-					<img src='/img/shop 6.png' alt='alt' />
+					<Link to='/store'>
+						<img src='/img/shop 6.png' alt='alt' />
+					</Link>
 				</Col>
 				<Col span={4}>
-					<img src='/img/shop 7.png' alt='alt' />
+					<Link to='/store'>
+						<img src='/img/shop 7.png' alt='alt' />
+					</Link>
 				</Col>
 				<Col span={4}>
-					<img src='/img/shop 8.png' alt='alt' />
+					<Link to='/store'>
+						<img src='/img/shop 8.png' alt='alt' />
+					</Link>
 				</Col>
 			</Row>
 		</div>

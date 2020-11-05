@@ -8,6 +8,7 @@ import {
 	WalletOutlined,
 } from '@ant-design/icons';
 import { Card, Col, Divider, Row, Input, Button, Checkbox, Form } from 'antd';
+import { Link } from 'react-router-dom';
 
 const { Meta } = Card;
 
@@ -18,23 +19,31 @@ const MyWallet = () => {
 				<Col span={5}>
 					<Card>
 						<div style={{ fontWeight: 'normal', fontSize: 16 }}>
-							<UserOutlined style={{ color: '#25AAE1' }} />
-							<span className='sidebar-menu'>My Account</span>
+							<Link to='/my-account'>
+								<UserOutlined style={{ color: '#25AAE1' }} />
+								<span className='sidebar-menu'>My Account</span>
+							</Link>
 						</div>
 						<Divider />
 						<div style={{ fontWeight: 'normal', fontSize: 16 }}>
-							<UnorderedListOutlined style={{ color: '#25AAE1' }} />
-							<span className='sidebar-menu'>My Order</span>
+							<Link to='/my-order'>
+								<UnorderedListOutlined style={{ color: '#25AAE1' }} />
+								<span className='sidebar-menu'>My Order</span>
+							</Link>
 						</div>
 						<Divider />
 						<div style={{ fontWeight: 'bold', fontSize: 16 }}>
-							<WalletOutlined style={{ color: '#25AAE1' }} />
-							<span className='sidebar-menu'>My Wallet</span>
+							<Link to='/my-wallet'>
+								<WalletOutlined style={{ color: '#25AAE1' }} />
+								<span className='sidebar-menu'>My Wallet</span>
+							</Link>
 						</div>
 						<Divider />
 						<div style={{ fontWeight: 'normal', fontSize: 16 }}>
-							<LogoutOutlined style={{ color: '#25AAE1' }} />
-							<span className='sidebar-menu'>Logout</span>
+							<Link to='/'>
+								<LogoutOutlined style={{ color: '#25AAE1' }} />
+								<span className='sidebar-menu'>Logout</span>
+							</Link>
 						</div>
 					</Card>
 				</Col>

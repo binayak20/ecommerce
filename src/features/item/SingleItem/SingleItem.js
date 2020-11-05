@@ -2,6 +2,7 @@ import React from 'react';
 import { Breadcrumb, Button, Col, Input, Row } from 'antd';
 import ImageComponent from '../../../component/ImageComponent';
 import { MinusOutlined, PlusOutlined } from '@ant-design/icons';
+import { Link } from 'react-router-dom';
 
 const SingleItem = () => {
 	return (
@@ -47,13 +48,15 @@ const SingleItem = () => {
 							</Row>
 						</Col>
 						<Col span={8}>
-							<Button
-								size='large'
-								style={{ background: '#25AAE1', color: '#fff' }}
-								//icon={<ShoppingOutlined />}
-							>
-								Add To Cart
-							</Button>
+							<Link to='/cart'>
+								<Button
+									size='large'
+									style={{ background: '#25AAE1', color: '#fff' }}
+									//icon={<ShoppingOutlined />}
+								>
+									Add To Cart
+								</Button>
+							</Link>
 						</Col>
 					</Row>
 					<div style={{ color: '#707070', marginTop: 10 }}>

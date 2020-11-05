@@ -39,16 +39,19 @@ const routes = [
 		component: lazy(() => import('../pages/MyWallet')),
 		exact: true,
 	},
+	{
+		path: PRIVATE_ROUTE.STORETWO,
+		component: lazy(() => import('../pages/StoreOne')),
+		exact: true,
+	},
+	{
+		path: PRIVATE_ROUTE.MYWALLETTWO,
+		component: lazy(() => import('../pages/MyWalletTwo')),
+		exact: true,
+	},
 ];
 
 export default function AppRouter() {
-	//const { url } = useRouteMatch();
-	// console.log(url);
-	// console.log('hello');
-	// const userPermissions = useSelector(
-	// 	(state) => state.CurrentUser.info.permissions
-	// );
-
 	return (
 		<Suspense fallback={<Spin />}>
 			<Switch>
@@ -57,7 +60,6 @@ export default function AppRouter() {
 						<route.component />
 					</Route>
 				))}
-				{/* <Route component={NotFound} /> */}
 			</Switch>
 		</Suspense>
 	);
